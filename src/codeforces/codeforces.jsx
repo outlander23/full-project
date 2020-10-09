@@ -3,7 +3,7 @@ import http from "../http/httpService";
 import {NavLink,Link} from "react-router-dom";
 import Sidebar from "../navbar/sidebar";
 import Ctabel from "./mintable";
-import Pagination from "../movies/common/pagination";
+
 let endPoint="https://mah2020.herokuapp.com/api/cf_problem/"
 
 
@@ -84,12 +84,7 @@ class Codecorces extends Component{
      		
      		</tbody>
      		</table>
-			<Pagination 
-                itemsCount={itemsCount}
-                pageSize={pageSize}
-                onPageChange={this.handlePageChange}
-                currentPage={currentPage}
-                />
+			
                 
 			</div>
 			</div>
