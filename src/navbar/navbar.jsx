@@ -45,8 +45,7 @@ class Navbar extends Component{
    <div class="navbar-collapse collapse" id="navbarCollapse">
     <ul className="navbar-nav mr-auto">
         <NavLink className="nav-item nav-link" to="/home">Home</NavLink>
-        <NavLink className="nav-item nav-link" to="/users">Users</NavLink>
-        <NavLink className="nav-item nav-link" to="/counters">Counters</NavLink>
+      
         <NavLink className="nav-item nav-link" to="/codeforces">Codeforces</NavLink>
         <NavLink className="nav-item nav-link" to="/contests">Contests</NavLink>
       </ul>
